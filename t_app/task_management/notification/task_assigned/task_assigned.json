@@ -13,7 +13,7 @@
  "is_standard": 1,
  "message": "<strong>({% raw %}{{ doc.name }} is assigned to you. Complete it by {{doc.due_date}} .{% endraw %})<strong>",
  "message_type": "HTML",
- "modified": "2025-01-30 15:12:58.427846",
+ "modified": "2025-01-30 15:31:05.908956",
  "modified_by": "Administrator",
  "module": "Task Management",
  "name": "Task assigned",
