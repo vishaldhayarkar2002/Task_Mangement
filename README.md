@@ -1,6 +1,6 @@
 ## Task Management
 
-To assign and createa tasks
+To assign and create tasks
 
 #### License
 
