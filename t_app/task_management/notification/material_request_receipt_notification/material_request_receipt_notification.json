@@ -1,0 +1,37 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2019-04-29 11:53:23.981418",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Tasks",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "",
+ "method": "",
+ "modified": "2025-01-30 15:04:27.644380",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Material Request Receipt Notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "assigned_to",
+   "receiver_by_role": "User"
+  },
+  {
+   "receiver_by_document_field": "assigned_to",
+   "receiver_by_role": "User Group"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "",
+ "sender_email": "",
+ "subject": "{{ doc.name }} Status has been changed to {{ doc.status }}",
+ "value_changed": "status"
+}
