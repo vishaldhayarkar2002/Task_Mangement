@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestQuantbit(FrappeTestCase):
+class TestDashboard(FrappeTestCase):
 	pass

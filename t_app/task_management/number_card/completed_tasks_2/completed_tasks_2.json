@@ -1,0 +1,22 @@
+{
+ "creation": "2025-02-05 09:55:27.560180",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Completed Tasks",
+ "modified": "2025-02-05 09:55:27.589413",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Completed Tasks-2",
+ "owner": "Administrator",
+ "report_field": "completed",
+ "report_function": "Sum",
+ "report_name": "Quantbit Task Report",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

@@ -1,0 +1,41 @@
+{
+ "chart_name": "Task completion stats",
+ "chart_type": "Report",
+ "creation": "2025-02-04 12:22:11.948694",
+ "custom_options": "{\"x_field\": \"assigned_to\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"y_field\": \"total_tasks\", \"color\": \"#ECAD4B\", \"name\": \"row 1\"}, {\"idx\": 2, \"__islocal\": true, \"y_field\": \"completed_tasks\", \"color\": \"#39E4A5\", \"name\": \"row 2\"}, {\"idx\": 3, \"__islocal\": true, \"y_field\": \"pending tasks\", \"color\": \"#CB2929\", \"name\": \"row 3\"}], \"y_fields\": [\"total_tasks\", \"completed_tasks\", \"pending tasks\"], \"colors\": [\"#ECAD4B\", \"#39E4A5\", \"#CB2929\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2025-02-04 12:22:11.996302",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Task completion stats",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Task Completion Stats",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "assigned_to",
+ "y_axis": [
+  {
+   "color": "#ECAD4B",
+   "y_field": "total_tasks"
+  },
+  {
+   "color": "#39E4A5",
+   "y_field": "completed_tasks"
+  },
+  {
+   "color": "#CB2929",
+   "y_field": "pending tasks"
+  }
+ ]
+}

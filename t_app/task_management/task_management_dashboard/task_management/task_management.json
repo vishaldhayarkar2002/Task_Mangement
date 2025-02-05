@@ -1,7 +1,15 @@
 {
- "cards": [],
+ "cards": [
+  {
+   "card": "Total task assigned"
+  }
+ ],
  "charts": [
   {
+   "width": "Half"
+  },
+  {
+   "chart": "Task completion stats",
    "width": "Half"
   }
  ],
@@ -12,7 +20,7 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "modified": "2025-01-30 13:28:53.662514",
+ "modified": "2025-02-04 12:22:12.026324",
  "modified_by": "Administrator",
  "module": "Task Management",
  "name": "Task Management",

@@ -1,0 +1,35 @@
+{
+    "cards": [
+      {
+        "type": "List View",
+        "filter_options": ["status", "due_date", "priority"]
+      },
+      {
+        "type": "Kanban View",
+        "filter_options": ["status"]
+      },
+      {
+        "type": "Calendar View",
+        "filter_options": ["due_date", "priority"]
+      }
+    ],
+    "charts": [
+      {
+        "chart": "Task Stats",
+        "width": "Half"
+      }
+    ],
+    "creation": "2025-02-04 12:23:18.139331",
+    "dashboard_name": "Tsk Dashboard",
+    "docstatus": 0,
+    "doctype": "Dashboard",
+    "idx": 0,
+    "is_default": 0,
+    "is_standard": 1,
+    "modified": "2025-02-04 12:26:18.702286",
+    "modified_by": "Administrator",
+    "module": "Task Management",
+    "name": "Tsk Dashboard",
+    "owner": "Administrator"
+  }
+  

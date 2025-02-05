@@ -5,6 +5,23 @@ app_description = "To assign and createa tasks"
 app_email = "abc@gmail.com"
 app_license = "MIT"
 
+doc_events = {
+    "tsk": {
+        "after_insert": "t_app.task_management.doctype.tsk.tsk.notify_user_on_assignment",
+        "on_update": [
+            "t_app.task_management.doctype.tsk.tsk.notify_user_on_status_change",
+            "t_app.task_management.doctype.tsk.tsk.notify_creator_on_completion"
+        ]
+    }
+}
+
+report_whitelist = [
+    'task_completion_stats'
+]
+
+
+
+# hooks.py
 # Includes in <head>
 # ------------------
 
