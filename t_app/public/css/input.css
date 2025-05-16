@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+
+/* Custom components for colorful POS */
+@layer components {
+  .pos-card {
+    @apply bg-white shadow-base rounded-md border border-primary/20 hover:shadow-glow transition-all;
+  }
+  .pointer-no-select {
+    @apply cursor-pointer select-none;
+  }
+  .nowrap {
+    @apply overflow-hidden whitespace-nowrap;
+  }
+  .image {
+    @apply h-full object-cover rounded-md;
+  }
+  .label {
+    @apply flex items-center font-bold text-lg text-dark;
+  }
+  .seperator {
+    @apply mx-sm border-b border-secondary/50;
+  }
+  .primary-action {
+    @apply cursor-pointer select-none flex items-center justify-center p-sm mt-sm rounded-md text-lg font-bold bg-gradient-primary text-dark hover:bg-gradient-to-r hover:from-primary hover:to-accent transition-colors;
+  }
+  .highlighted-numpad-btn {
+    @apply shadow-inner font-bold bg-success text-dark;
+  }
+  .item-wrapper {
+    @apply pointer-no-select rounded-md shadow-base hover:scale-102 bg-gradient-to-br from-primary/10 to-secondary/10 relative transition-transform;
+  }
+  .cart-item-wrapper {
+    @apply pointer-no-select flex items-center p-sm rounded-md hover:bg-accent/20 transition-colors;
+  }
+}
+
+@tailwind utilities;

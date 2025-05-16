@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-18 11:12:26.393581",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location_data",
+  "cal_area",
+  "section_break_vco4q",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vco4q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cal_area",
+   "fieldtype": "Float",
+   "label": "Cal Area",
+   "precision": "6"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Area1",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "location_data",
+   "fieldtype": "Table",
+   "label": "Location Data",
+   "options": "Location Coordinates"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-03-18 15:55:39.566605",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Area1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom components based on SCSS */
+@layer components {
+  .pos-card {
+    @apply bg-gray-100 shadow-md rounded-md;
+  }
+  .pointer-no-select {
+    @apply cursor-pointer select-none;
+  }
+  .nowrap {
+    @apply overflow-hidden whitespace-nowrap;
+  }
+  .image {
+    @apply h-full object-cover;
+  }
+  .abbr {
+    @apply bg-gray-50 text-3xl;
+  }
+  .label {
+    @apply flex items-center font-bold text-lg;
+  }
+  .seperator {
+    @apply mx-sm border-b border-gray-300;
+  }
+  .primary-action {
+    @apply cursor-pointer select-none flex items-center justify-center p-sm mt-sm rounded-md text-lg font-bold;
+  }
+  .highlighted-numpad-btn {
+    @apply shadow-inner font-bold bg-gray-50;
+  }
+}
+
+@tailwind utilities;

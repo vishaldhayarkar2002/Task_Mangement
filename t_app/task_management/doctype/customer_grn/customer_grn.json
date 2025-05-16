@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CGRN-{#####}",
+ "creation": "2025-03-07 12:24:52.693389",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rtuc",
+  "company",
+  "column_break_dwsc",
+  "posting_date",
+  "customer_details_section",
+  "customer",
+  "customer_grn_date",
+  "column_break_jdij",
+  "customer_name",
+  "sales_invoice",
+  "column_break_xbxs",
+  "customer_grn_no",
+  "eway_bill_no",
+  "section_break_yizg",
+  "customer_grn_items",
+  "section_break_mqib",
+  "column_break_lyzy",
+  "column_break_kxdr",
+  "column_break_xqfd",
+  "column_break_hhvm",
+  "total_qty",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rtuc",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dwsc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer_grn_date",
+   "fieldtype": "Date",
+   "label": "Customer GRN Date"
+  },
+  {
+   "fieldname": "column_break_jdij",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice ",
+   "options": "Sales Invoice",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xbxs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_grn_no",
+   "fieldtype": "Data",
+   "label": "Customer GRN No"
+  },
+  {
+   "fieldname": "eway_bill_no",
+   "fieldtype": "Int",
+   "label": "Eway bill No"
+  },
+  {
+   "fieldname": "section_break_yizg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_grn_items",
+   "fieldtype": "Table",
+   "label": "Customer GRN Items",
+   "options": "Customer GRN Items"
+  },
+  {
+   "fieldname": "section_break_mqib",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lyzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_kxdr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xqfd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hhvm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Float",
+   "label": "Total Qty",
+   "precision": "2"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Customer GRN",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Customer GRN",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-03-21 12:36:01.870791",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Customer GRN",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

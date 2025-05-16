@@ -1,0 +1,1 @@
+const test = `<div class="bg-gray-50 p-4 grid grid-cols-10">Test</div>`;

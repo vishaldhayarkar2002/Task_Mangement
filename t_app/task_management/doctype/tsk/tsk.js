@@ -1,12 +1,11 @@
-// Copyright (c) 2025, vishal and contributors
-// For license information, please see license.txt
+
 
 frappe.ui.form.on('tsk', {
     refresh: function(frm) {
         if (frm.doc.status === "Completed") {
             frappe.msgprint("🎉 Task Completed!");
         }
-        // Add buttons to update status
+       
         if (frm.doc.status !== 'Completed') {
             frm.add_custom_button('Mark as In Progress', () => {
                 frm.set_value('status', 'In progress');
@@ -21,7 +20,7 @@ frappe.ui.form.on('tsk', {
     },
 
     setup: function(frm) {
-        // Set default status to "Open" when creating a new task
+        
         if (frm.is_new()) {
             frm.set_value('status', 'Open');
         }
